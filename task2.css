@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+    background: linear-gradient(to right, #15ca04, #1bf213, #56f3aa);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+ }
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+ .container {
+    width: 80vw;
+    max-width: 80%;
+    background-color: rgb(231, 231, 192);
+    height: 70vh;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.question {
+    font-size: 30px;
+   padding-bottom: 190px;
+}
+.options {
+    font-size: 15px;
+    display: grid;
+    grid-template-areas: 20px;
+    grid-gap: -5px;
+    justify-content: center;
+    grid-row-start: 20px;
+    grid-template-columns: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+}
+.button {
+    margin-left: 120px;
+    margin-top: -2%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #7fbcdf;
+    color: rgb(10, 10, 10);
+    border: none;
+    cursor: pointer;
+   
+}
+#score {
+    font-size: 30px;
+    color: rgb(46, 219, 118);
+}
